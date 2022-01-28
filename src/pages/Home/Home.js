@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Header from "../../components/Header/header";
 import React, { useState, useEffect} from "react";
-// import ClipLoader from "react-spinners/ClipLoader";
 import * as S from "./style.home";
 import Carregar from "../../../src/img/pokedexloading.gif";
 
@@ -19,6 +18,7 @@ export default function Carrinho() {
     },[])
 
     return (
+        <> 
         <S.Container>
             {
                 loading ?
@@ -27,11 +27,14 @@ export default function Carrinho() {
                 className="Loading"
                 loading={loading}
                 /> 
+                
                 :
+
                 <Header/>
             }
             
         </S.Container>
+        </>
     );
 
 }
