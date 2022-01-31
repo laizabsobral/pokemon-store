@@ -46,3 +46,9 @@ export const GetPokemon = (pokemon) => async dispatch => {
   }
 };
 
+export function searchPokemon(pokemon) {
+  return {
+      type: 'SEARCHED_POKEMON',
+      payload: pokemon
+  }
+}

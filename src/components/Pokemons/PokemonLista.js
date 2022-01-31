@@ -35,7 +35,7 @@ useEffect(() => {
  return (
    <div className="app-contaner">
      <div className="pokemon-container">
-       
+    
          {allPokemons.map( (pokemonStats, index) => 
            <PokemonThumb
              key={index}

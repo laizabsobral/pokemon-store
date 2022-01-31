@@ -39,7 +39,7 @@ export const list = styled.div`
 
 
 export const Pokemon = styled.div`
-    margin: 22px 20px;
+    margin: 100px 20px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
