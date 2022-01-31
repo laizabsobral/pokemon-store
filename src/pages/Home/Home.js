@@ -31,6 +31,7 @@ export default function Carrinho() {
                 :
 
                 <Header/>
+               
             }
             
         </S.Container>
